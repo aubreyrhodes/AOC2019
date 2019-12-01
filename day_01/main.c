@@ -39,5 +39,7 @@ int main(int argc, char const *argv[])
   printf("Part One: %d\n", sum);
   printf("Part Two: %d\n", fuelSum);
 
+  free(input);
+
   return 0;
 }
